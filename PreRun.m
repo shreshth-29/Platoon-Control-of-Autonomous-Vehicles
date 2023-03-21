@@ -1,0 +1,19 @@
+Ts = 0.1;
+T = 80;
+G_ego = tf(1,[0.5,1,0]);
+x0_lead = 70;   % initial position for lead car (m)
+v0_lead = 25;   % initial velocity for lead car (m/s)
+
+x0_ego = 10;   % initial position for ego car (m)
+v0_ego = 20;   % initial velocity for ego car (m/s)
+t_gap = 1.4;
+D_default = 10;
+v_set = 30;
+amin_ego = -3;
+amax_ego = 2;
+x0_ego_1 = 38;   % initial position for ego car (m)
+v0_ego_1 = 20;   % initial velocity for ego car (m/s)
+x0_ego_2 = 0;   % initial position for ego car (m)
+v0_ego_2 = 20;   % initial velocity for ego car (m/s)
+x0_ego_3 = -38;   % initial position for ego car (m)
+v0_ego_3 = 20;   % initial velocity for ego car (m/s)
