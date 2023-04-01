@@ -4,12 +4,12 @@ IOP-2023
 
 Contributors:
 
-Amisha Verma
+- Amisha Verma
 
-Archana Singh
+- Archana Singh
 
-Ritvik Mahajan
+- Ritvik Mahajan
 
-Sameer Talwar
+- Sameer Talwar
 
-Shreshth Mehrotra
+- Shreshth Mehrotra
