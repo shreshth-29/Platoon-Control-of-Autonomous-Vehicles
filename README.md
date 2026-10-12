@@ -1,6 +1,6 @@
 # Platoon Control of Autonomous Vehicles
 
-Repository created in March 2023. Reorganized and cleaned up in October 2026 (file structure and README only, the code is as it was written at the time, except where the README notes a fix).
+Repository created in March 2023. Reorganized and cleaned up in October 2026.
 
 Longitudinal and lateral control of a platoon of connected autonomous vehicles, including a coordinated lane change of the whole platoon. The platoon uses a predecessor-following communication model: each follower measures its distance to, and the heading of, the vehicle directly ahead and tries to hold a velocity-dependent safe distance (d_safe = d_default + T_gap * v_ego) while matching the predecessor's yaw. Controllers were first designed and analysed on a bicycle kinematic model in MATLAB and Simulink, then re-implemented on top of the full vehicle dynamics in the CARLA simulator. The full write-up is in [reports/iop_report.pdf](reports/iop_report.pdf); a two-page summary is in [reports/IOP_MTE_Group5.pdf](reports/IOP_MTE_Group5.pdf).
 
