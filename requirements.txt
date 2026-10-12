@@ -1,0 +1,8 @@
+# Python side of the CARLA experiments (carla/).
+# The carla package version must match the CARLA server you run; the
+# agents.navigation modules come from <CARLA>/PythonAPI/carla, not from pip.
+carla
+numpy
+pygame
+matplotlib
+jupyter

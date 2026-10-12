@@ -1,0 +1,21 @@
+# Simulink / MATLAB
+*.slxc
+*.autosave
+*.slx.r20*
+*.asv
+slprj/
+*.mexw64
+*.mexa64
+*.mexmaci64
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# CARLA client output
+_out/
+
+# OS
+.DS_Store
+Thumbs.db
